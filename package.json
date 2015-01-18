@@ -1,0 +1,40 @@
+{
+  "name": "exitzero",
+  "version": "1.0.0",
+  "description": "make a CLI command always return an exit status of 0. This can be useful in combination with a `watch` process to ensure things keep running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "cli",
+    "nofail",
+    "failonerror",
+    "fail",
+    "on",
+    "error",
+    "task",
+    "build"
+  ],
+  "author": "Dan Flettre",
+  "license": "ISC",
+  "devDependencies": {
+    "nixt": "^0.4.1",
+    "tape": "^3.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "exitzero": "./index.js"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flet/exitzero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flet/exitzero/issues"
+  },
+  "homepage": "https://github.com/Flet/exitzero"
+}
