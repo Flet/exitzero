@@ -4,7 +4,7 @@
   "description": "make a CLI command always return an exit status of 0. This can be useful in combination with a `watch` process to ensure things keep running.",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "standard && node test/test.js"
   },
   "keywords": [
     "cli",
@@ -20,6 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "nixt": "^0.4.1",
+    "standard": "*",
     "tape": "^3.2.0"
   },
   "directories": {

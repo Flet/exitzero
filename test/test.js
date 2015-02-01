@@ -6,7 +6,6 @@ tapetest('be sure this exits non-zero while not wrapped', function (t) {
     .run('node thisdoesnotexist')
     .code(8)
     .end(t.end)
-
 })
 
 tapetest('has exit code zero when wrapped command fails', function (t) {
@@ -21,5 +20,4 @@ tapetest('has exit code zero when wrapped command succeeds', function (t) {
     .run('node -v')
     .code(0)
     .end(t.end)
-
 })
