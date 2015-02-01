@@ -1,6 +1,6 @@
 {
   "name": "exitzero",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "make a CLI command always return an exit status of 0. This can be useful in combination with a `watch` process to ensure things keep running.",
   "main": "index.js",
   "scripts": {
